@@ -1,0 +1,945 @@
+/*apparence du site au global*/
+
+.body {
+    background-color: gray;
+}
+
+/*apparence des boîtes du titre*/
+
+.div_title {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color:rgba(104, 76, 49, 0.87);
+    font-size: 55px;
+    font-weight: 1000;
+}
+
+/*apparence du texte introductif*/
+
+.div_text_intro {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+.text_intro {
+    color: rgba(104, 76, 49, 0.87);
+    font-size: 20px;
+    z-index: 10;
+}
+
+.mdg {
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+}
+
+.mdgtext {
+    font-size: larger;
+}
+
+/*apparence des boîtes de l'arbre généalogique*/
+
+.divdurinI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 250px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 350px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinIII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 450px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinIII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinIV {
+    background-color:black;
+    margin-left: 20px;
+    margin-top: 550px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinIV {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinV {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinV {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinVI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinVI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divnainI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.nainI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divthrainI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 950px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.thrainI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divthorinI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1050px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.thorinI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divgloin {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1150px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.gloin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divoin {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1250px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.oin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divnainII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1350px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.nainII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdainI {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1450px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.dainI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divgror {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1550px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.gror {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divnain {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.nain {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdainII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.dainII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divthorinIII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.thorinIII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divdurinVII {
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 1950px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.durinVII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divborin {
+    background-color: black;
+    margin-left: 350px;
+    margin-top: 1450px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.borin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfarin {
+    background-color: black;
+    margin-left: 350px;
+    margin-top: 1550px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.farin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divgroin {
+    background-color: black;
+    margin-left: 350px;
+    margin-top: 1650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.groin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divoin2 {
+    background-color: black;
+    margin-left: 250px;
+    margin-top: 1750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.oin2 {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divbruenor {
+    background-color: black;
+    margin-left: 250px;
+    margin-top: 1850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.bruenor {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divgloin2 {
+    background-color: black;
+    margin-left: 450px;
+    margin-top: 1750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.gloin2 {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divgimli {
+    background-color: black;
+    margin-left: 450px;
+    margin-top: 1850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.gimli {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divbarin {
+    background-color: black;
+    margin-left: 580px;
+    margin-top: 1650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.barin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divmarin {
+    background-color: black;
+    margin-left: 580px;
+    margin-top: 1750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.marin {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarkuld {
+    background-color: black;
+    margin-left: 667.5px;
+    margin-top: 1850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarkuld {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.liendurin {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    background-color: black;
+    width: 10px;
+    height: 1800px;
+    z-index: 1;
+}
+
+.lienNB1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 330px;
+    margin-top: 1420px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.lienNB2 {
+    position: absolute;
+    background-color: black;
+    height: 310px;
+    width: 10px;
+    margin-top: 1420px;
+    margin-left: 380px;
+    z-index: 1;
+}
+
+.lienGO1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 100px;
+    margin-top: 1720px;
+    margin-left: 280px;
+    z-index: 1;
+}
+
+.lienGO2 {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-top: 1720px;
+    margin-left: 280px;
+    z-index: 1;
+}
+
+.lienGG1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 100px;
+    margin-top: 1720px;
+    margin-left: 380px;
+    z-index: 1;
+}
+
+.lienGG2 {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-top: 1720px;
+    margin-left: 480px;
+    z-index: 1;
+}
+
+.lienFB1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 230px;
+    margin-top: 1620px;
+    margin-left: 380px;
+    z-index: 1;
+}
+
+.lienFB2 {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-top: 1620px;
+    margin-left: 610px;
+    z-index: 1;
+}
+
+.lienFB2 {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-top: 1620px;
+    margin-left: 610px;
+    z-index: 1;
+}
+
+.lienMF1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 175px;
+    margin-top: 1770px;
+    margin-left: 610px;
+    z-index: 1;
+}
+
+.lienMF2 {
+    position: absolute;
+    background-color: black;
+    height: 110px;
+    width: 10px;
+    margin-top: 1776px;
+    margin-left: 698px;
+    z-index: 1;
+}
+
+
+
+
+.fe {
+    position: absolute;
+    margin-top: 200px;
+    width: 100%;
+    margin-left: 900px;
+}
+
+.fetext {
+    font-size: larger;
+}
+
+.divfindarI {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 250px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 350px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarIII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 450px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarIII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarIV {
+    background-color:black;
+    margin-left: 912px;
+    margin-top: 550px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarIV {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarV {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarV {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarVI {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarVI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarVII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 850px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarVII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarVIII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 950px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarVIII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarIX {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1050px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarIX {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarX {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1150px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarX {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarXI {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1250px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarXI {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarXII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1350px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarXII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarXIII {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1450px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarXIII {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindarXIV {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1550px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findarXIV {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfindal {
+    background-color: black;
+    margin-left: 912px;
+    margin-top: 1650px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.findal {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.divfinellen {
+    background-color: black;
+    margin-left: 742px;
+    margin-top: 1750px;
+    position: absolute;
+    width: 76px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.finellen {
+    color: rgb(231, 145, 15);
+    text-align: center;
+    z-index: 10;
+}
+
+.lienfindar {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 945px;
+    background-color: black;
+    width: 10px;
+    height: 1400px;
+    z-index: 1;
+}
+
+.lienFF1 {
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 170px;
+    margin-top: 1620px;
+    margin-left: 775px;
+    z-index: 1;
+}
+
+.lienFF2 {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 10px;
+    margin-top: 1620px;
+    margin-left: 775px;
+    z-index: 1;
+}
+
+
+.hautpage {
+    position: absolute;
+    background-color: grey;
+    margin-left: 40px;
+    height: 20px;
+    width: 20px;
+    z-index: 9;
+}
+
+.baspage {
+    position: absolute;
+    margin-top: 2000px;
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+    z-index: 9;
+}
+
+/*
+color rgb{} : bah c la couleur en fait
+font-size : taille d'un texte
+font-weight : graisse du texte
+display: flex : va s'étendre de gauche à droite, pour le titre
+padding: px : espacement entre la boîte et le reste
+justify-content : position de gauche à droite
+position absolute : jsp/si le positionnement ça marche pas
+margin-left/top/bottom/right : définir la position
+display greed : pour faire fontionner une boîte comme une grille
+*/
